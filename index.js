@@ -23,31 +23,31 @@ for (let i = 0; i < document.querySelectorAll("button").length; i++)
     {
         switch (key) {
             case "w":
-                var audio = new Audio ("E:/My Space/Web Dev/Drum Kit Section13/sounds/tom-1.mp3");
+                var audio = new Audio ("sounds/tom-1.mp3");
                 audio.play();
                 break;
             case "a":
-                var audio = new Audio ("E:/My Space/Web Dev/Drum Kit Section13/sounds/tom-2.mp3");
+                var audio = new Audio ("sounds/tom-2.mp3");
                 audio.play();
                 break;
             case "s":
-                var audio = new Audio ("E:/My Space/Web Dev/Drum Kit Section13/sounds/tom-3.mp3");
+                var audio = new Audio ("sounds/tom-3.mp3");
                 audio.play();
                 break;
             case "d":
-                var audio = new Audio ("E:/My Space/Web Dev/Drum Kit Section13/sounds/tom-4.mp3");
+                var audio = new Audio ("sounds/tom-4.mp3");
                 audio.play();
                 break;
             case "j":
-                var audio = new Audio ("E:/My Space/Web Dev/Drum Kit Section13/sounds/crash.mp3");
+                var audio = new Audio ("sounds/crash.mp3");
                 audio.play();
                 break;
             case "k":
-                var audio = new Audio ("E:/My Space/Web Dev/Drum Kit Section13/sounds/kick-bass.mp3");
+                var audio = new Audio ("sounds/kick-bass.mp3");
                 audio.play();
                 break;
             case "l":
-                var audio = new Audio ("E:/My Space/Web Dev/Drum Kit Section13/sounds/snare.mp3");
+                var audio = new Audio ("sounds/snare.mp3");
                 audio.play();
                 break;
             default:
@@ -75,31 +75,31 @@ function funCall(i)
 {
     switch (i) {
         case 0:
-            var audio = new Audio ("E:/My Space/Web Dev/Drum Kit Section13/sounds/tom-1.mp3");
+            var audio = new Audio ("sounds/tom-1.mp3");
             audio.play();
             break;
         case 1:
-            var audio = new Audio ("E:/My Space/Web Dev/Drum Kit Section13/sounds/tom-2.mp3");
+            var audio = new Audio ("sounds/tom-2.mp3");
             audio.play();
             break;
         case 2:
-            var audio = new Audio ("E:/My Space/Web Dev/Drum Kit Section13/sounds/tom-3.mp3");
+            var audio = new Audio ("sounds/tom-3.mp3");
             audio.play();
             break;
         case 3:
-            var audio = new Audio ("E:/My Space/Web Dev/Drum Kit Section13/sounds/tom-4.mp3");
+            var audio = new Audio ("sounds/tom-4.mp3");
             audio.play();
             break;
         case 4:
-            var audio = new Audio ("E:/My Space/Web Dev/Drum Kit Section13/sounds/crash.mp3");
+            var audio = new Audio ("sounds/crash.mp3");
             audio.play();
             break;
         case 5:
-            var audio = new Audio ("E:/My Space/Web Dev/Drum Kit Section13/sounds/kick-bass.mp3");
+            var audio = new Audio ("sounds/kick-bass.mp3");
             audio.play();
             break;
         case 6:
-            var audio = new Audio ("E:/My Space/Web Dev/Drum Kit Section13/sounds/snare.mp3");
+            var audio = new Audio ("sounds/snare.mp3");
             audio.play();
             break;
         default:
